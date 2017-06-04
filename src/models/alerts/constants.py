@@ -1,7 +1,9 @@
+import os
+
 __author__ = 'jc'
 
 COLLECTION = 'alerts'
-URL = ''
-API_KEY = ''
-FROM = ''
-ALERT_TIMEOUT = 1
+URL = os.environ.get('MAILGUN_URL')
+API_KEY =  os.environ.get('MAILGUN_API_KEY')
+FROM = os.environ.get('MAILGUN_FROM')
+ALERT_TIMEOUT = 10
