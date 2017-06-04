@@ -1,9 +1,9 @@
 import requests
 import re
 import uuid
-import models.items.constants as ItemConstants
-from models.stores.store import Store
-from common.database import Database
+import src.models.items.constants as ItemConstants
+from src.models.stores.store import Store
+from src.common.database import Database
 from bs4 import BeautifulSoup
 
 __author__ = 'jc'

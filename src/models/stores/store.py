@@ -1,7 +1,7 @@
 import uuid
-import models.stores.constants as StoreConstants
-import models.stores.errors as StoreErrors
-from common.database import Database
+import src.models.stores.constants as StoreConstants
+import src.models.stores.errors as StoreErrors
+from src.common.database import Database
 
 
 __author__ = 'jc'

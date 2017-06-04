@@ -1,5 +1,5 @@
-from models.alerts.alert import Alert
-from common.database import Database
+from src.models.alerts.alert import Alert
+from src.common.database import Database
 
 __author__ = 'jc'
 

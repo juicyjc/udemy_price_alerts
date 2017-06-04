@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template, request, session, redirect, url_for
-from models.alerts.alert import Alert
-from models.items.item import Item
-import models.users.decorators as user_decorators
+from src.models.alerts.alert import Alert
+from src.models.items.item import Item
+import src.models.users.decorators as user_decorators
 
 __author__ = 'jc'
 
