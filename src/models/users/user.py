@@ -1,9 +1,9 @@
 import uuid
-from common.database import Database
-from common.utils import Utils
-from models.alerts.alert import Alert
-import models.users.errors as UserErrors
-import models.users.constants as UserConstants
+from src.common.database import Database
+from src.common.utils import Utils
+from src.models.alerts.alert import Alert
+import src.models.users.errors as UserErrors
+import src.models.users.constants as UserConstants
 
 __author__ = 'jc'
 
