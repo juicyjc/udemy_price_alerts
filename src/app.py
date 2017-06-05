@@ -5,7 +5,7 @@ __author__ = "jc"
 
 app = Flask(__name__)
 app.config.from_object('src.config')
-app.secret_key = ""
+app.secret_key = os.environ.get("APP_SECRET_KEY")
 
 
 @app.before_first_request
